@@ -1,0 +1,12 @@
+all:
+  wsp_xcss_plugin:
+    path_to_css_dir: <?php echo sfConfig::get('sf_web_dir') . '/css/' ?>
+    master_file: false
+    master_filename: ~
+    reset_files: ~
+    hook_files: ~
+    construct_name: 'self'
+    compress: true
+    minify_output: true
+    debugmode: false
+    disable_xcss: false
